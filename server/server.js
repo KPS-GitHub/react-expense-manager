@@ -10,4 +10,4 @@ app.use(express.static(path.join(__dirname, "../client")));
 
 app.use("/", router);
 
-module.exports=app;
+module.exports = app;
